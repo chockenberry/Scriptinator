@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		446EB0AF1955E93E007C37F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446EB0AE1955E93E007C37F7 /* Cocoa.framework */; };
+		446EB0B91955E93E007C37F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 446EB0B71955E93E007C37F7 /* InfoPlist.strings */; };
+		446EB0BB1955E93E007C37F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB0BA1955E93E007C37F7 /* main.m */; };
+		446EB0BF1955E93E007C37F7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 446EB0BD1955E93E007C37F7 /* Credits.rtf */; };
+		446EB0C21955E93E007C37F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB0C11955E93E007C37F7 /* AppDelegate.m */; };
+		446EB0C51955E93E007C37F7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446EB0C31955E93E007C37F7 /* MainMenu.xib */; };
+		446EB0C71955E93E007C37F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446EB0C61955E93E007C37F7 /* Images.xcassets */; };
+		446EB0CE1955E93E007C37F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446EB0CD1955E93E007C37F7 /* XCTest.framework */; };
+		446EB0CF1955E93E007C37F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446EB0AE1955E93E007C37F7 /* Cocoa.framework */; };
+		446EB0D71955E93E007C37F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 446EB0D51955E93E007C37F7 /* InfoPlist.strings */; };
+		446EB0D91955E93E007C37F7 /* ScriptinatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EB0D81955E93E007C37F7 /* ScriptinatorTests.m */; };
+		446EB0E41955EEFE007C37F7 /* Automation.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 446EB0E31955EEFE007C37F7 /* Automation.scpt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		446EB0D01955E93E007C37F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446EB0A31955E93E007C37F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446EB0AA1955E93E007C37F7;
+			remoteInfo = Scriptinator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		446EB0AB1955E93E007C37F7 /* Scriptinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scriptinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		446EB0AE1955E93E007C37F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		446EB0B11955E93E007C37F7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		446EB0B21955E93E007C37F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		446EB0B31955E93E007C37F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		446EB0B61955E93E007C37F7 /* Scriptinator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scriptinator-Info.plist"; sourceTree = "<group>"; };
+		446EB0B81955E93E007C37F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		446EB0BA1955E93E007C37F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		446EB0BC1955E93E007C37F7 /* Scriptinator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scriptinator-Prefix.pch"; sourceTree = "<group>"; };
+		446EB0BE1955E93E007C37F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		446EB0C01955E93E007C37F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		446EB0C11955E93E007C37F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		446EB0C41955E93E007C37F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		446EB0C61955E93E007C37F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		446EB0CC1955E93E007C37F7 /* ScriptinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScriptinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		446EB0CD1955E93E007C37F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		446EB0D41955E93E007C37F7 /* ScriptinatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScriptinatorTests-Info.plist"; sourceTree = "<group>"; };
+		446EB0D61955E93E007C37F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		446EB0D81955E93E007C37F7 /* ScriptinatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScriptinatorTests.m; sourceTree = "<group>"; };
+		446EB0E21955E94F007C37F7 /* Scriptinator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Scriptinator.entitlements; sourceTree = "<group>"; };
+		446EB0E31955EEFE007C37F7 /* Automation.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = Automation.scpt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		446EB0A81955E93E007C37F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446EB0AF1955E93E007C37F7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446EB0C91955E93E007C37F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446EB0CF1955E93E007C37F7 /* Cocoa.framework in Frameworks */,
+				446EB0CE1955E93E007C37F7 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		446EB0A21955E93E007C37F7 = {
+			isa = PBXGroup;
+			children = (
+				446EB0B41955E93E007C37F7 /* Scriptinator */,
+				446EB0D21955E93E007C37F7 /* ScriptinatorTests */,
+				446EB0AD1955E93E007C37F7 /* Frameworks */,
+				446EB0AC1955E93E007C37F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		446EB0AC1955E93E007C37F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446EB0AB1955E93E007C37F7 /* Scriptinator.app */,
+				446EB0CC1955E93E007C37F7 /* ScriptinatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		446EB0AD1955E93E007C37F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				446EB0AE1955E93E007C37F7 /* Cocoa.framework */,
+				446EB0CD1955E93E007C37F7 /* XCTest.framework */,
+				446EB0B01955E93E007C37F7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		446EB0B01955E93E007C37F7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				446EB0B11955E93E007C37F7 /* AppKit.framework */,
+				446EB0B21955E93E007C37F7 /* CoreData.framework */,
+				446EB0B31955E93E007C37F7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		446EB0B41955E93E007C37F7 /* Scriptinator */ = {
+			isa = PBXGroup;
+			children = (
+				446EB0E31955EEFE007C37F7 /* Automation.scpt */,
+				446EB0E21955E94F007C37F7 /* Scriptinator.entitlements */,
+				446EB0C01955E93E007C37F7 /* AppDelegate.h */,
+				446EB0C11955E93E007C37F7 /* AppDelegate.m */,
+				446EB0C31955E93E007C37F7 /* MainMenu.xib */,
+				446EB0C61955E93E007C37F7 /* Images.xcassets */,
+				446EB0B51955E93E007C37F7 /* Supporting Files */,
+			);
+			path = Scriptinator;
+			sourceTree = "<group>";
+		};
+		446EB0B51955E93E007C37F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				446EB0B61955E93E007C37F7 /* Scriptinator-Info.plist */,
+				446EB0B71955E93E007C37F7 /* InfoPlist.strings */,
+				446EB0BA1955E93E007C37F7 /* main.m */,
+				446EB0BC1955E93E007C37F7 /* Scriptinator-Prefix.pch */,
+				446EB0BD1955E93E007C37F7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		446EB0D21955E93E007C37F7 /* ScriptinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				446EB0D81955E93E007C37F7 /* ScriptinatorTests.m */,
+				446EB0D31955E93E007C37F7 /* Supporting Files */,
+			);
+			path = ScriptinatorTests;
+			sourceTree = "<group>";
+		};
+		446EB0D31955E93E007C37F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				446EB0D41955E93E007C37F7 /* ScriptinatorTests-Info.plist */,
+				446EB0D51955E93E007C37F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		446EB0AA1955E93E007C37F7 /* Scriptinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446EB0DC1955E93E007C37F7 /* Build configuration list for PBXNativeTarget "Scriptinator" */;
+			buildPhases = (
+				446EB0A71955E93E007C37F7 /* Sources */,
+				446EB0A81955E93E007C37F7 /* Frameworks */,
+				446EB0A91955E93E007C37F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scriptinator;
+			productName = Scriptinator;
+			productReference = 446EB0AB1955E93E007C37F7 /* Scriptinator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		446EB0CB1955E93E007C37F7 /* ScriptinatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446EB0DF1955E93E007C37F7 /* Build configuration list for PBXNativeTarget "ScriptinatorTests" */;
+			buildPhases = (
+				446EB0C81955E93E007C37F7 /* Sources */,
+				446EB0C91955E93E007C37F7 /* Frameworks */,
+				446EB0CA1955E93E007C37F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				446EB0D11955E93E007C37F7 /* PBXTargetDependency */,
+			);
+			name = ScriptinatorTests;
+			productName = ScriptinatorTests;
+			productReference = 446EB0CC1955E93E007C37F7 /* ScriptinatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		446EB0A31955E93E007C37F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Craig Hockenberry";
+				TargetAttributes = {
+					446EB0AA1955E93E007C37F7 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					446EB0CB1955E93E007C37F7 = {
+						TestTargetID = 446EB0AA1955E93E007C37F7;
+					};
+				};
+			};
+			buildConfigurationList = 446EB0A61955E93E007C37F7 /* Build configuration list for PBXProject "Scriptinator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 446EB0A21955E93E007C37F7;
+			productRefGroup = 446EB0AC1955E93E007C37F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				446EB0AA1955E93E007C37F7 /* Scriptinator */,
+				446EB0CB1955E93E007C37F7 /* ScriptinatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		446EB0A91955E93E007C37F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446EB0B91955E93E007C37F7 /* InfoPlist.strings in Resources */,
+				446EB0C71955E93E007C37F7 /* Images.xcassets in Resources */,
+				446EB0BF1955E93E007C37F7 /* Credits.rtf in Resources */,
+				446EB0C51955E93E007C37F7 /* MainMenu.xib in Resources */,
+				446EB0E41955EEFE007C37F7 /* Automation.scpt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446EB0CA1955E93E007C37F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446EB0D71955E93E007C37F7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		446EB0A71955E93E007C37F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446EB0C21955E93E007C37F7 /* AppDelegate.m in Sources */,
+				446EB0BB1955E93E007C37F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446EB0C81955E93E007C37F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446EB0D91955E93E007C37F7 /* ScriptinatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		446EB0D11955E93E007C37F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446EB0AA1955E93E007C37F7 /* Scriptinator */;
+			targetProxy = 446EB0D01955E93E007C37F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		446EB0B71955E93E007C37F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446EB0B81955E93E007C37F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		446EB0BD1955E93E007C37F7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446EB0BE1955E93E007C37F7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		446EB0C31955E93E007C37F7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446EB0C41955E93E007C37F7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		446EB0D51955E93E007C37F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446EB0D61955E93E007C37F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		446EB0DA1955E93E007C37F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		446EB0DB1955E93E007C37F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		446EB0DD1955E93E007C37F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Scriptinator/Scriptinator.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scriptinator/Scriptinator-Prefix.pch";
+				INFOPLIST_FILE = "Scriptinator/Scriptinator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		446EB0DE1955E93E007C37F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Scriptinator/Scriptinator.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scriptinator/Scriptinator-Prefix.pch";
+				INFOPLIST_FILE = "Scriptinator/Scriptinator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		446EB0E01955E93E007C37F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scriptinator.app/Contents/MacOS/Scriptinator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scriptinator/Scriptinator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScriptinatorTests/ScriptinatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		446EB0E11955E93E007C37F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scriptinator.app/Contents/MacOS/Scriptinator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scriptinator/Scriptinator-Prefix.pch";
+				INFOPLIST_FILE = "ScriptinatorTests/ScriptinatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		446EB0A61955E93E007C37F7 /* Build configuration list for PBXProject "Scriptinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446EB0DA1955E93E007C37F7 /* Debug */,
+				446EB0DB1955E93E007C37F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446EB0DC1955E93E007C37F7 /* Build configuration list for PBXNativeTarget "Scriptinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446EB0DD1955E93E007C37F7 /* Debug */,
+				446EB0DE1955E93E007C37F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		446EB0DF1955E93E007C37F7 /* Build configuration list for PBXNativeTarget "ScriptinatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446EB0E01955E93E007C37F7 /* Debug */,
+				446EB0E11955E93E007C37F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 446EB0A31955E93E007C37F7 /* Project object */;
+}
